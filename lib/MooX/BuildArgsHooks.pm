@@ -88,9 +88,9 @@ BEGIN {
     has normalize => ( is=>'rw' );
     has transform => ( is=>'rw' );
     has finalize  => ( is=>'rw' );
-    sub NORMALIZE_BUILDARGS { $_[0]->normalize(1) }
-    sub TRANSFORM_BUILDARGS { $_[0]->transform(1) }
-    sub FINALIZE_BUILDARGS  { $_[0]->finalize(1) }
+    sub NORMALIZE_BUILDARGS { $_[0]->normalize(1); shift; @_ }
+    sub TRANSFORM_BUILDARGS { $_[0]->transform(1); $_[1] }
+    sub FINALIZE_BUILDARGS  { $_[0]->finalize(1); $_[1] }
 }
 
 # When installing these modifiers we're going to be super defensive
