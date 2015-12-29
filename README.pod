@@ -43,6 +43,10 @@ L<MooX::BuildArgsHooks>
 
 =item *
 
+L<MooX::MethodProxyArgs>
+
+=item *
+
 L<MooX::Rebuild>
 
 =item *

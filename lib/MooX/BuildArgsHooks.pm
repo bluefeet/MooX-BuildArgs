@@ -74,7 +74,7 @@ use Class::Method::Modifiers qw( install_modifier );
 use Moo::Object qw();
 
 use Moo::Role;
-use strictures 1;
+use strictures 2;
 use namespace::clean;
 
 BEGIN {
@@ -243,6 +243,10 @@ all other steps have completed.
 =item *
 
 L<MooX::BuildArgs>
+
+=item *
+
+L<MooX::MethodProxyArgs>
 
 =item *
 
