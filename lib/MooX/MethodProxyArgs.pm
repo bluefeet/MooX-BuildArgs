@@ -29,22 +29,12 @@ MooX::MethodProxyArgs - Invoke code to populate static arguments.
 This module munges the class's input arugments by replacing any
 method proxy values found with the result of calling the methods.
 
-A method proxy looks like this:
-
-    [ '&proxy', $package, $sub_name, @args ]
-
-When any argument's value is an array ref, where the first value in
-the array ref is the string C<&proxy>, then it will be considered to
-be a method proxy and the value will be replaced with whatever value
-is returned from calling:
-
-    $package->$sub_name( @args );
-
-When your objects support method proxies it can make it much easier
-for users of your objects to assign dynamic values to arguments from
-static configuration sources, such as configuration files.
+This is done using L<Config::MethodProxy>.  See that module for more
+infromation on how method proxies works.
 
 =cut
+
+use Config::MethodProxy;
 
 use Moo::Role;
 use strictures 2;
@@ -55,31 +45,10 @@ with 'MooX::BuildArgsHooks';
 around TRANSFORM_BUILDARGS => sub{
     my ($orig, $class, $args) = @_;
 
-    return $class->$orig({
-        map { $_ => $class->_run_if_method_proxy( $args->{$_} ) }
-        keys( %$args )
-    });
+    return $class->$orig(
+        apply_method_proxies( $args ),
+    );
 };
-
-sub _run_if_method_proxy {
-    my ($class, $proxy) = @_;
-
-    return $proxy if ref($proxy) ne 'ARRAY';
-    return $proxy if !@$proxy;
-    return $proxy if !defined $proxy->[0];
-    return $proxy if $proxy->[0] ne '&proxy';
-
-    return $class->_run_method_proxy( $proxy );
-}
-
-sub _run_method_proxy {
-    my ($class, $proxy) = @_;
-
-    shift( @$proxy );
-    my ($package, $method, @args) = @$proxy;
-
-    return $package->$method( @args );
-}
 
 1;
 __END__
