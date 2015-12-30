@@ -20,7 +20,7 @@ MooX::MethodProxyArgs - Invoke code to populate static arguments.
         return $number / $divisor;
     }
     
-    my $foo = Foo->new( bar => ['&proxy', 'main', 'divide', 10, 2 ] );
+    my $foo = Foo->new( bar => ['$proxy', 'main', 'divide', 10, 2 ] );
     
     print $foo->bar(); # 5
 
