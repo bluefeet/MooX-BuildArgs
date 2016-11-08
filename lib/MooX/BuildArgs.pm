@@ -17,7 +17,7 @@ MooX::BuildArgs - Save instantiation arguments for later use.
 =head1 DESCRIPTION
 
 It is often useful to be able to access the arguments that were
-used to create an object in their unadulturated form, before any
+used to create an object in their unadulterated form, before any
 coercions or init_args have changed them.  This L<Moo> role
 provides the arguments via the L</build_args> attribute.
 
