@@ -6,5 +6,5 @@ requires 'Carp'                => 0;
 requires 'Config::MethodProxy' => 0.02;
 
 on test => sub {
-    requires 'Test::Stream' => 1.302026;
+    requires 'Test2::Suite' => 0;
 };
