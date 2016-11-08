@@ -26,7 +26,7 @@ MooX::MethodProxyArgs - Invoke code to populate static arguments.
 
 =head1 DESCRIPTION
 
-This module munges the class's input arugments by replacing any
+This module munges the class's input arguments by replacing any
 method proxy values found with the result of calling the methods.
 
 This is done using L<Config::MethodProxy>.  See that module for more

@@ -38,7 +38,7 @@ MooX::BuildArgsHooks - Structured BUILDARGS.
 =head1 DESCRIPTION
 
 This module installs some hooks directly into L<Moo> which allow
-for more fine-grained access to the phases of C<BUILDLARGS>.  The
+for more fine-grained access to the phases of C<BUILDARGS>.  The
 reason this is important is because if you have various roles and
 classes modifying BUILDARGS you will often end up with weird
 behaviors depending on what order the various BUILDARGS wrappers
@@ -144,7 +144,7 @@ BEGIN {
 # Must declare a custom no-op BUILDARGS otherwise
 # Method::Generate::Constructor gets in the way.
 # Alternatively we could modify its inlined BUILDARGS
-# to include our logic, but thats making things even
+# to include our logic, but that's making things even
 # more brittle.
 around BUILDARGS => sub{
     my $orig = shift;
