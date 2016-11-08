@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use Test::Stream '-V1';
+use Test2::Bundle::Extended;
 
 {
     package Foo;
