@@ -93,6 +93,16 @@ L<MooX::SingleArg>
 
 Aran Clary Deltac <bluefeet@gmail.com>
 
+=head1 CONTRIBUTORS
+
+=over
+
+=item *
+
+Peter Pentchev <roamE<64>ringlet.net>
+
+=back
+
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify

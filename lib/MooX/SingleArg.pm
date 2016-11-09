@@ -135,7 +135,17 @@ L<MooX::Rebuild>
 
 =head1 AUTHOR
 
-Aran Clary Deltac <bluefeet@gmail.com>
+Aran Clary Deltac <bluefeetE<64>gmail.com>
+
+=head1 CONTRIBUTORS
+
+=over
+
+=item *
+
+Peter Pentchev <roamE<64>ringlet.net>
+
+=back
 
 =head1 LICENSE
 
