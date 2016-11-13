@@ -30,7 +30,7 @@ This module munges the class's input arguments by replacing any
 method proxy values found with the result of calling the methods.
 
 This is done using L<Config::MethodProxy>.  See that module for more
-infromation on how method proxies works.
+information on how method proxies work.
 
 =cut
 
