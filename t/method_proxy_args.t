@@ -8,6 +8,8 @@ use Test2::Bundle::Extended;
     has bar => ( is=>'ro' );
 }
 
+$INC{'main.pm'} = 1;
+
 sub divide {
     my ($class, $number, $divisor) = @_;
     return $number / $divisor;
