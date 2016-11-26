@@ -2,6 +2,9 @@ Revision history for Perl extension MooX::BuildArgs.
 
 {{$NEXT}}
 
+ - Correct a typographical and a grammar mistake. @ppentchev
+ - Let the proxy args test pass on recent versions of Perl. @ppentchev
+
 0.03 2016-11-09
 
  - Fix a couple of typographical errors. @ppentchev
