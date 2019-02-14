@@ -52,7 +52,7 @@
       },
       "test" : {
          "requires" : {
-            "Test2::Suite" : "0"
+            "Test2::V0" : "0.000071"
          }
       }
    },
