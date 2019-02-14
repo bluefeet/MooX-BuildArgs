@@ -1,6 +1,8 @@
-Revision history for Perl extension MooX::BuildArgs.
+Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
+
+ - Migrate build tooling from Dist::Zilla to Minilla.
 
 0.04 2016-11-26
 

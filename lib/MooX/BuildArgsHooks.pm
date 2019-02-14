@@ -1,5 +1,7 @@
 package MooX::BuildArgsHooks;
 
+$MooX::BuildArgsHooks::VERSION = '0.04';
+
 =head1 NAME
 
 MooX::BuildArgsHooks - Structured BUILDARGS.

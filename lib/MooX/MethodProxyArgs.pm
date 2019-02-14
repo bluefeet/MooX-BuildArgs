@@ -1,5 +1,7 @@
 package MooX::MethodProxyArgs;
 
+$MooX::MethodProxyArgs::VERSION = '0.04';
+
 =head1 NAME
 
 MooX::MethodProxyArgs - Invoke code to populate static arguments.

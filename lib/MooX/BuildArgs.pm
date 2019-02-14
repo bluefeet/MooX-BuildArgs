@@ -1,5 +1,7 @@
 package MooX::BuildArgs;
 
+$MooX::BuildArgs::VERSION = '0.04';
+
 =head1 NAME
 
 MooX::BuildArgs - Save instantiation arguments for later use.

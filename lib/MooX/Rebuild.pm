@@ -1,5 +1,7 @@
 package MooX::Rebuild;
 
+$MooX::Rebuild::VERSION = '0.04';
+
 =head1 NAME
 
 MooX::Rebuild - Rebuild your Moo objects.

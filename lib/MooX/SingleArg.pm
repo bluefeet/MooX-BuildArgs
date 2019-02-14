@@ -1,5 +1,7 @@
 package MooX::SingleArg;
 
+$MooX::SingleArgs::VERSION = '0.04';
+
 =head1 NAME
 
 MooX::SingleArg - Support single-argument instantiation.
