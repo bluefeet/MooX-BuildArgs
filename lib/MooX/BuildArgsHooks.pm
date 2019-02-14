@@ -80,7 +80,8 @@ use strictures 2;
 use namespace::clean;
 
 BEGIN {
-    package MooX::BuildArgsHooks::Test;
+    package # NO INDEX
+        MooX::BuildArgsHooks::Test;
     use Moo;
     around BUILDARGS => sub{
         my $orig = shift;
