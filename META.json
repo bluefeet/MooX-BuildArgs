@@ -43,7 +43,7 @@
       "runtime" : {
          "requires" : {
             "Carp" : "0",
-            "Config::MethodProxy" : "0.02",
+            "Data::MethodProxy" : "0.03",
             "Moo" : "2",
             "Scalar::Util" : "0",
             "namespace::clean" : "0.24",
