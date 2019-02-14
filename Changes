@@ -2,6 +2,8 @@ Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
 
+0.05 2019-02-14T18:03:13Z
+
  - Use Data::MethodProxy instead of Config::MethodProxy.
  - Use Test2::V0 instead of Test2::Bundle::Extended.
  - Migrate build tooling from Dist::Zilla to Minilla.

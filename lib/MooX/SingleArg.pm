@@ -1,6 +1,6 @@
 package MooX::SingleArg;
 
-$MooX::SingleArgs::VERSION = '0.04';
+$MooX::SingleArgs::VERSION = '0.05';
 
 =head1 NAME
 
