@@ -1,6 +1,6 @@
 package MooX::Rebuild;
 
-$MooX::Rebuild::VERSION = '0.05';
+$MooX::Rebuild::VERSION = '0.06';
 
 =head1 NAME
 

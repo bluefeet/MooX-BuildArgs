@@ -1,6 +1,6 @@
 package MooX::BuildArgsHooks;
 
-$MooX::BuildArgsHooks::VERSION = '0.05';
+$MooX::BuildArgsHooks::VERSION = '0.06';
 
 =head1 NAME
 

@@ -1,6 +1,6 @@
 package MooX::BuildArgs;
 
-$MooX::BuildArgs::VERSION = '0.05';
+$MooX::BuildArgs::VERSION = '0.06';
 
 =head1 NAME
 

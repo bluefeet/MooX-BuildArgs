@@ -2,6 +2,8 @@ Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
 
+0.06 2019-02-14T18:50:14Z
+
  - Fix a couple PAUSE indexing issues!
 
 0.05 2019-02-14T18:03:13Z
