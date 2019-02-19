@@ -47,6 +47,7 @@
             "Moo" : "2.000000",
             "Scalar::Util" : "0",
             "namespace::clean" : "0.24",
+            "perl" : "5.008001",
             "strictures" : "2.000000"
          }
       },
