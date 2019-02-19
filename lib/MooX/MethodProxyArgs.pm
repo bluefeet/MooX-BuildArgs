@@ -1,6 +1,6 @@
 package MooX::MethodProxyArgs;
 
-$MooX::MethodProxyArgs::VERSION = '0.06';
+our $VERSION = '0.06';
 
 =head1 NAME
 
