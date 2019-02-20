@@ -1,5 +1,6 @@
 package MooX::Rebuild;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.06';
 
 =head1 NAME
@@ -31,7 +32,6 @@ order to capture the original arguments used to create an object.
 =cut
 
 use Moo::Role;
-use strictures 2;
 use namespace::clean;
 
 with 'MooX::BuildArgs';

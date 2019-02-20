@@ -1,5 +1,6 @@
 package MooX::MethodProxyArgs;
-
+use 5.008001;
+use strictures 2;
 our $VERSION = '0.06';
 
 =head1 NAME
@@ -39,7 +40,6 @@ information on how method proxies work.
 use Data::MethodProxy;
 
 use Moo::Role;
-use strictures 2;
 use namespace::clean;
 
 with 'MooX::BuildArgsHooks';
