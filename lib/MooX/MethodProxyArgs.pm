@@ -49,10 +49,16 @@ my $mproxy = Data::MethodProxy->new();
 around TRANSFORM_BUILDARGS => sub{
     my ($orig, $class, $args) = @_;
 
-    return $class->$orig(
-        $mproxy->render( $args ),
-    );
+    $args = $class->TRANSFORM_METHOD_PROXY_ARGS_BUILDARGS( $args );
+
+    return $class->$orig( $args );
 };
+
+sub TRANSFORM_METHOD_PROXY_ARGS_BUILDARGS {
+    my ($class, $args) = @_;
+
+    return $mproxy->render( $args );
+}
 
 1;
 __END__
