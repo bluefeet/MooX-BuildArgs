@@ -7,7 +7,7 @@ our $VERSION = '0.07';
 
 MooX::SingleArg - Support single-argument instantiation.
 
-=head2 SYNOPSIS
+=head1 SYNOPSIS
 
     package Foo;
     use Moo;
