@@ -91,22 +91,15 @@ L<MooX::SingleArg>
 
 =back
 
-=head1 AUTHOR
+=head1 AUTHORS
 
-Aran Clary Deltac <bluefeet@gmail.com>
-
-=head1 CONTRIBUTORS
-
-=over
-
-=item *
-
-Peter Pentchev <roamE<64>ringlet.net>
-
-=back
+    Aran Clary Deltac <bluefeet@gmail.com>
+    Peter Pentchev <roam@ringlet.net>
 
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
+=cut
 

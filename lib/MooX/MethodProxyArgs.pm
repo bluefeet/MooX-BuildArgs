@@ -85,22 +85,9 @@ L<MooX::SingleArg>
 
 =back
 
-=head1 AUTHOR
+=head1 AUTHORS AND LICENSE
 
-Aran Clary Deltac <bluefeetE<64>gmail.com>
+See L<MooX::BuildArgs/AUTHORS> and L<MooX::BuildArgs/LICENSE>.
 
-=head1 CONTRIBUTORS
-
-=over
-
-=item *
-
-Peter Pentchev <roamE<64>ringlet.net>
-
-=back
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+=cut
 

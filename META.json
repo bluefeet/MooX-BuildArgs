@@ -43,8 +43,11 @@
       "runtime" : {
          "requires" : {
             "Carp" : "0",
+            "Class::Method::Modifiers" : "2.05",
             "Data::MethodProxy" : "0.03",
             "Moo" : "2.000000",
+            "Moo::Object" : "0",
+            "Moo::Role" : "2.000000",
             "Scalar::Util" : "0",
             "namespace::clean" : "0.24",
             "perl" : "5.008001",
@@ -70,6 +73,7 @@
       }
    },
    "version" : "0.06",
+   "x_authority" : "cpan:BLUEFEET",
    "x_contributors" : [
       "Peter Pentchev <roam@ringlet.net>"
    ],
