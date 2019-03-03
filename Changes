@@ -2,6 +2,8 @@ Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
 
+0.07 2019-03-03T19:11:21Z
+
  - Fix some POD and dependency issues.
  - Properly extend TRANSFORM_BUILDARGS in ::MethodProxyArgs.
  - Require perl 5.8.1.
