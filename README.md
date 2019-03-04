@@ -42,6 +42,7 @@ Returns a hashref containing the captured arguments.
 
     Aran Clary Deltac <bluefeet@gmail.com>
     Peter Pentchev <roam@ringlet.net>
+    Mohammad S Anwar <mohammad.anwar@yahoo.com>
 
 # LICENSE
 

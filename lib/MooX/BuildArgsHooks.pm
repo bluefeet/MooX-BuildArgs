@@ -3,6 +3,8 @@ use 5.008001;
 use strictures 2;
 our $VERSION = '0.07';
 
+=encoding utf8
+
 =head1 NAME
 
 MooX::BuildArgsHooks - Structured BUILDARGS.

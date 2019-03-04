@@ -2,6 +2,8 @@ Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
 
+ - Tidied up pod for MooX::SingleArg.
+
 0.07 2019-03-03T19:11:21Z
 
  - Fix some POD and dependency issues.
@@ -21,13 +23,13 @@ Revision history for Perl extension MooX-BuildArgs.
 
 0.04 2016-11-26
 
- - Correct a typographical and a grammar mistake. @ppentchev
- - Let the proxy args test pass on recent versions of Perl. @ppentchev
+ - Correct a typographical and a grammar mistake.
+ - Let the proxy args test pass on recent versions of Perl.
 
 0.03 2016-11-09
 
- - Fix a couple of typographical errors. @ppentchev
- - Switch from Test::Stream to Test2::Suite. @ppentchev
+ - Fix a couple of typographical errors.
+ - Switch from Test::Stream to Test2::Suite.
  - Use Config::MethodProxy in MooX::MethodProxyArgs.
 
 0.02 2015-12-29
