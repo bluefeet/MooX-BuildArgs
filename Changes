@@ -2,7 +2,8 @@ Revision history for Perl extension MooX-BuildArgs.
 
 {{$NEXT}}
 
- - Tidied up pod for MooX::SingleArg.
+ - Add clear_build_args() to MooX::BuildArgs.
+ - Tidied up POD for MooX::SingleArg.
 
 0.07 2019-03-03T19:11:21Z
 
