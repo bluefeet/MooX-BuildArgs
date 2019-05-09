@@ -25,6 +25,16 @@ Note that no attempt is made to weaken the args.  So, if you use
 this module and you have attributes with `weak_ref` set the
 references will not be weakened within ["build\_args"](#build_args).
 
+# METHODS
+
+## clear\_build\_args
+
+```
+$object->clear_build_args();
+```
+
+Clears ["build\_args"](#build_args) so that it returns `undef`.
+
 # ATTRIBUTES
 
 ## build\_args

@@ -52,6 +52,14 @@ sub FINALIZE_BUILD_ARGS_BUILDARGS {
     return $args;
 }
 
+=head1 METHODS
+
+=head2 clear_build_args
+
+    $object->clear_build_args();
+
+Clears L</build_args> so that it returns C<undef>.
+
 =head1 ATTRIBUTES
 
 =head2 build_args
