@@ -223,7 +223,7 @@ returned.
 
 =head2 FINALIZE_BUILDARGS
 
-    around FINAL_BUILDARGS => sub{
+    around FINALIZE_BUILDARGS => sub{
         my ($orig, $class, $args) = @_;
 
         # Let any other hooks have a turn.
