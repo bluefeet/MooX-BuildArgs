@@ -47,10 +47,10 @@ Returns a hashref containing the captured arguments.
 
 # SEE ALSO
 
-- [MooX::BuildArgsHooks](https://metacpan.org/pod/MooX::BuildArgsHooks)
-- [MooX::MethodProxyArgs](https://metacpan.org/pod/MooX::MethodProxyArgs)
-- [MooX::Rebuild](https://metacpan.org/pod/MooX::Rebuild)
-- [MooX::SingleArg](https://metacpan.org/pod/MooX::SingleArg)
+- [MooX::BuildArgsHooks](https://metacpan.org/pod/MooX%3A%3ABuildArgsHooks)
+- [MooX::MethodProxyArgs](https://metacpan.org/pod/MooX%3A%3AMethodProxyArgs)
+- [MooX::Rebuild](https://metacpan.org/pod/MooX%3A%3ARebuild)
+- [MooX::SingleArg](https://metacpan.org/pod/MooX%3A%3ASingleArg)
 
 # SUPPORT
 
